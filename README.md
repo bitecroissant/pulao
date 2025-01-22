@@ -1,4 +1,8 @@
-# README
+# 蒲牢项目 README
+
+## 使用 `Dotenv` 代替 rails 的密钥管理
+`rm config/database.yml config/credentials.yml.enc \
+config/master.key`
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
