@@ -33,3 +33,6 @@
 /config/master.key
 
 /config/credentials/production.key
+
+# Ignore vendor cache
+/vendor/cache
