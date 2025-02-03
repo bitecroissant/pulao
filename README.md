@@ -51,3 +51,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## 魔改 api-documentation
+```
+git clone git@github.com:bitecroissant/rspec_api_documentation.git vendor/rspec_api_documentation
+
+gem 'rspec_api_documentation', path: './vendor/rspec_api_documentation'
+
+```

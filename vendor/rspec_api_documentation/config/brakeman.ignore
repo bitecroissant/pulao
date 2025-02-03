@@ -1,0 +1,28 @@
+{
+  "ignored_warnings": [
+    {
+      "warning_type": "Basic Auth",
+      "warning_code": 9,
+      "fingerprint": "08c030e18d1e72a7fcb5d6f83be1ff0c6b6f84f08fde5eb9cda04d2d61c48465",
+      "check_name": "BasicAuth",
+      "message": "Basic authentication password stored in source code",
+      "file": "example/app/controllers/uploads_controller.rb",
+      "line": 2,
+      "link": "https://brakemanscanner.org/docs/warning_types/basic_auth/",
+      "code": "http_basic_authenticate_with(:name => \"user\", :password => \"password\")",
+      "render_path": null,
+      "location": {
+        "type": "controller",
+        "controller": "UploadsController"
+      },
+      "user_input": null,
+      "confidence": "High",
+      "cwe_id": [
+        259
+      ],
+      "note": ""
+    }
+  ],
+  "updated": "2024-06-28 10:03:42 +0200",
+  "brakeman_version": "6.1.2"
+}
